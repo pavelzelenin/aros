@@ -1,0 +1,14 @@
+[project]
+name = "aros"
+version = "0.1.0"
+description = "Lightweight environment checks for Agent Runtime OS"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["error"]
